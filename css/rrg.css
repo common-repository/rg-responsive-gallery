@@ -1,0 +1,48 @@
+.rrg_gallery_block .rrg-wrapper{ max-height:400px; overflow:hidden;}.rrg-wrapper{position:relative;margin:0 auto 60px;padding:0;}.rrg-wrapper img{max-width:100%;display:block}.rrg-wrapper .rrg-viewport{-moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #ccc;box-shadow:0 0 5px #ccc;border:5px solid #fff;left:-5px;background:#fff;-webkit-transform:translatez(0);-moz-transform:translatez(0);-ms-transform:translatez(0);-o-transform:translatez(0);transform:translatez(0)}.rrg-wrapper .rrg-controls-auto,.rrg-wrapper .rrg-pager{position:absolute;bottom:-30px;width:100%}.rrg-wrapper .rrg-loading{min-height:50px;background:url(../images/rg_loader.gif) center center no-repeat #fff;height:100%;width:100%;position:absolute;top:0;left:0;z-index:2000}.rrg-wrapper .rrg-pager{text-align:center;font-size:.85em;font-family:Arial;font-weight:700;color:#666;padding-top:20px}.rrg-wrapper .rrg-controls-auto .rrg-controls-auto-item,.rrg-wrapper .rrg-pager .rrg-pager-item{display:inline-block}.rrg-wrapper .rrg-pager.rrg-default-pager a{background:#666;text-indent:-9999px;display:block;width:10px;height:10px;margin:0 5px;outline:0;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}.rrg-wrapper .rrg-pager.rrg-default-pager a.active,.rrg-wrapper .rrg-pager.rrg-default-pager a:hover{background:#000}.rrg-wrapper .rrg-prev{left:10px;background:url(../images/controls.png) 0 -32px no-repeat}.rrg-wrapper .rrg-next{right:10px;background:url(../images/controls.png) -43px -32px no-repeat}.rrg-wrapper .rrg-prev:hover{background-position:0 0}.rrg-wrapper .rrg-next:hover{background-position:-43px 0}.rrg-wrapper .rrg-controls-direction a{position:absolute;top:50%;margin-top:-16px;outline:0;width:32px;height:32px;text-indent:-9999px;z-index:9999}.rrg-wrapper .rrg-controls-direction a.disabled{display:none}.rrg-wrapper .rrg-controls-auto{text-align:center}.rrg-wrapper .rrg-controls-auto .rrg-start{display:block;text-indent:-9999px;width:10px;height:11px;outline:0;background:url(../images/controls.png) -86px -11px no-repeat;margin:0 3px}.rrg-wrapper .rrg-controls-auto .rrg-start.active,.rrg-wrapper .rrg-controls-auto .rrg-start:hover{background-position:-86px 0}.rrg-wrapper .rrg-controls-auto .rrg-stop{display:block;text-indent:-9999px;width:9px;height:11px;outline:0;background:url(../images/controls.png) -86px -44px no-repeat;margin:0 3px}.rrg-wrapper .rrg-controls-auto .rrg-stop.active,.rrg-wrapper .rrg-controls-auto .rrg-stop:hover{background-position:-86px -33px}.rrg-wrapper .rrg-controls.rrg-has-controls-auto.rrg-has-pager .rrg-pager{text-align:left;width:80%}.rrg-wrapper .rrg-controls.rrg-has-controls-auto.rrg-has-pager .rrg-controls-auto{right:0;width:35px}.rrg-wrapper .rrg-caption{position:absolute;bottom:0;left:0;background:#666\9;background:rgba(80,80,80,.75);width:100%}.rrg-wrapper .rrg-caption span{color:#fff;font-family:Arial;display:block;font-size:.85em;padding:10px}
+/* recent post thumb gallery */
+
+
+#rrg_post_thumb_gallery .rrg-wrapper .rrg-controls .rrg-next{ right: -43px;}
+#rrg_post_thumb_gallery .rrg-wrapper .rrg-controls .rrg-prev{ left: -43px;}
+
+
+#rrg_post_thumb_gallery .rrg-controls {
+    float: right;
+    position: absolute;
+    right: 40px;
+    top: -22%;
+}
+ #rrg_post_thumb_gallery .link-heading {
+    background: none repeat scroll 0 0 #21759b;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    padding: 2% 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+ul.rrgallery,.rrgallery li{margin:0px;}
+ #rrg_post_thumb_gallery  .heading{border-bottom: 1px solid #f9bc00;padding-bottom: 10px;width: 100%;}
+ #rrg_post_thumb_gallery  .heading span {font-family: Helvetica;font-size: 18px;font-weight: bold;text-decoration: none; text-transform: uppercase;  color: #fff;}
+ #rrg_post_thumb_gallery  .rrg-wrapper{padding-top:10px;} 
+#rrg_post_thumb_gallery .rrg-wrapper .rrg-viewport {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    box-shadow: inherit;
+}
+#rrg_post_thumb_gallery  .rrg-wrapper .rrg-viewport img {width:100%; height:125px;}
+#rrg_post_thumb_gallery {
+    background: #2ca8d2;
+    float: right;
+    padding:4%;
+    position: relative;
+    width: 100%;;
+}
+.rrg_gallery_block {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+}
